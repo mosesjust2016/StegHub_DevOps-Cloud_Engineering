@@ -96,4 +96,4 @@ After chnaging the permission . connect to the instance with the command below:
 ```bash
 ssh -i "<private-key-name>.pem" ubuntu@<ip-address or dns-name>
 ```
-<img src="images/ec2-connected-instance.PNG" alt="ec">
+<img src="../images/ec2-connected-instance.PNG" alt="ec">
