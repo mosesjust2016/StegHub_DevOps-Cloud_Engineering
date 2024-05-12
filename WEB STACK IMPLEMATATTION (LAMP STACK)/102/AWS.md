@@ -91,7 +91,7 @@ Before connecting to the instance, chnage the permission for the downloaded ssh 
 sudo chmod 400 <private-key-name>.pem
 ```
 
-After chnaging the permission . connect to the instance with the command below:
+After changing the permission . connect to the instance with the command below:
 
 ```bash
 ssh -i "<private-key-name>.pem" ubuntu@<ip-address or dns-name>
