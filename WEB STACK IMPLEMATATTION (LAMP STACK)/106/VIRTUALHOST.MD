@@ -6,7 +6,7 @@
  sudo mkdir /var/www/projectlamp
 ```
 
-<img src="../images/virtualhost-directory.PNG" alt="Virtual Host Directory">
+<img src="../../images/virtualhost-directory.PNG" alt="Virtual Host Directory">
 
 * 2. Assign ownership of directory
 
@@ -25,9 +25,10 @@
 
 <img src="../images/directory-ownership.PNG" alt="Directory Ownership">
 
-* 4. Configure Virtual host file 
+* 4. Bare bones Configurarion file 
 
 ```bash
+
  <VirtualHost *:80>
     ServerName projectlamp
     ServerAlias www.projectlamp
@@ -72,7 +73,7 @@
  sudo a2dissite 000-default
 ```
 
-<img src="../images/disable-default-website.PNG" alt="Default website">
+<img src="../../images/disable-default-website.PNG" alt="Default website">
 
 * 9. Make sure configuration file does not contain syntax error 
 
@@ -80,7 +81,7 @@
  sudo apache2ctl configtest
 ```
 
-<img src="../images/syntax-confirm.PNG" alt="Syntax confirm">
+<img src="../../images/syntax-confirm.PNG" alt="Syntax confirm">
 
 * 10. Run Apache Reload
 
@@ -88,7 +89,7 @@
  sudo systemctl reload apache2
 ```
 
-<img src="../images/reload-apache.PNG" alt="Reload Apache">
+<img src="../../images/reload-apache.PNG" alt="Reload Apache">
 
 
 
@@ -98,7 +99,7 @@
  sudo vi /var/www/projectlamp/index.html
 ```
 
-<img src="../images/insert-index-file.PNG" alt="index.html">
+<img src="../../images/insert-index-file.PNG" alt="index.html">
 
 
 * 12. Edit index.html
@@ -107,4 +108,4 @@
     sudo echo 'Helo LAMP from hostname' $(curl -s http://172.31.18.251/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://172.31.18.251/latest/meta-data/public-ip4) > /var/www/projectlamp/index.html
 ```
 
-<img src="../images/index-file-html.PNG" alt="Insert index.html">
+<img src="../../images/index-file-html.PNG" alt="Insert index.html">

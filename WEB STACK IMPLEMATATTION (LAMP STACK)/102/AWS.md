@@ -60,28 +60,28 @@ You will be redirected to a new screen where you will create your root user pass
 
 * Log in to the AWS Management Console
 
-<img src="../images/AWSLogin.PNG" alt="eclogin">
-<img src="../images/AWSLogin2.PNG" alt="eclogin2">
+<img src="../../images/AWSLogin.PNG" alt="eclogin">
+<img src="../../images/AWSLogin2.PNG" alt="eclogin2">
 
 * Navigate to the EC2 dashboard
 
-<img src="../images/AWSDashboard.PNG" alt="ecdashboard">
+<img src="../../images/AWSDashboard.PNG" alt="ecdashboard">
 
 * Click on "Launch Instance" 
 
-<img src="../images/aws-launch-instance.PNG" alt="eclaunchinstance">
+<img src="../../images/aws-launch-instance.PNG" alt="eclaunchinstance">
 
 * Choose the Ubuntu Server image
 
-<img src="../images/choose-ubuntu.PNG" alt="eclaunchinstance">
+<img src="../../images/choose-ubuntu.PNG" alt="eclaunchinstance">
 
 * Choose the instance type and configure the settings as desired
 
-<img src="../images/Launch-instance.PNG" alt="eclaunchinstance">
+<img src="../../images/Launch-instance.PNG" alt="eclaunchinstance">
 
 * EC2 Instance
 
-<img src="../images/ec2-instance.PNG" alt="eclaunchinstance">
+<img src="../../images/ec2-instance.PNG" alt="eclaunchinstance">
 
 
 #### Conect to EC2 Instance via SSH
@@ -96,4 +96,4 @@ After changing the permission . connect to the instance with the command below:
 ```bash
 ssh -i "<private-key-name>.pem" ubuntu@<ip-address or dns-name>
 ```
-<img src="../images/ec2-connected-instance.PNG" alt="ec">
+<img src="../../images/ec2-connected-instance.PNG" alt="ec">

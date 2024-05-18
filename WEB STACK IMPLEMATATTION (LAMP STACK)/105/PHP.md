@@ -6,7 +6,7 @@
  sudo apt install php libapache2-mod-php php-mysql
 ```
 
-<img src="../images/install-php.PNG" alt="install php">
+<img src="../../images/install-php.PNG" alt="install php">
 
 * 2. Confirm PHP version installed 
 
@@ -14,4 +14,4 @@
  php -v 
 ```
 
-<img src="../images/php-version.PNG" alt="php version">
+<img src="../../images/php-version.PNG" alt="php version">

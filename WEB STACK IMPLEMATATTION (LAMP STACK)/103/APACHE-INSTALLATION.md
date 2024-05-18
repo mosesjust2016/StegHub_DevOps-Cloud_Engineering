@@ -6,7 +6,7 @@
 sudo apt update 
 ```
 
-<img src="../images/update-package-manager.PNG" alt="update package manager">
+<img src="../../images/update-package-manager.PNG" alt="update package manager">
 
 * 2. Install Apache
 
@@ -14,7 +14,7 @@ sudo apt update
  sudo apt install apache2
 ```
 
-<img src="../images/install-apache.PNG" alt="install apache">
+<img src="../../images/install-apache.PNG" alt="install apache">
 
 
 * 3. Verify Apache is running 
@@ -23,7 +23,7 @@ sudo apt update
  sudo systemctl status apache2
 ```
 
-<img src="../images/apache-status.PNG" alt="apache status">
+<img src="../../images/apache-status.PNG" alt="apache status">
 
 * 4. Access Apache locally
 
@@ -31,7 +31,7 @@ sudo apt update
  curl http://localhost:80
 ```
 
-<img src="../images/access-local.PNG" alt="loacl access">
+<img src="../../images/access-local.PNG" alt="loacl access">
 
 
 * 4. Access Apache locally
@@ -40,7 +40,7 @@ sudo apt update
 http://<Public-IP-Address>:80
 ```
 
-<img src="../images/apache-default-page.PNG" alt="apache default page">
+<img src="../../images/apache-default-page.PNG" alt="apache default page">
 
 * 4. Another way
 
@@ -48,4 +48,4 @@ http://<Public-IP-Address>:80
 curl http://<Public-IP-Address>/latest/meta-data/public-ipv4
 ```
 
-<img src="../images/apache-another-way.PNG" alt="apache another way">
+<img src="../../images/apache-another-way.PNG" alt="apache another way">

@@ -6,7 +6,7 @@
  sudo vim /etc/apache2/mods-enabled/dir.conf
 ```
 
-<img src="../images/virtualhost-directory.PNG" alt="Virtual Host Directory">
+<img src="../../images/virtualhost-directory.PNG" alt="Virtual Host Directory">
 
 * 2. Change website startup behavior
 
@@ -18,7 +18,7 @@
 </IfModule>
 ```
 
-<img src="../images/directory-index.PNG" alt="Directory Index">
+<img src="../../images/directory-index.PNG" alt="Directory Index">
 
 
 * 3. Apache Reload
@@ -27,7 +27,7 @@
     sudo systemctl reload apache2
 ```
 
-<img src="../images/reload-apache.PNG" alt="Reload Apache">
+<img src="../../images/reload-apache.PNG" alt="Reload Apache">
 
 
 * 4. Create a new file named index.php
@@ -36,7 +36,7 @@
     sudo vim /var/www/projectlamp/index.php
 ```
 
-<img src="../images/create-index-php.PNG" alt="Create php file">
+<img src="../../images/create-index-php.PNG" alt="Create php file">
 
 * 5. Edit index.php
 
@@ -44,7 +44,7 @@
     sudo vim /var/www/projectlamp/index.php
 ```
 
-<img src="../images/edit-index-php.PNG" alt="Edit php file">
+<img src="../../images/edit-index-php.PNG" alt="Edit php file">
 
-<img src="../images/index-php-mod.PNG" alt="PHP file">
+<img src="../../images/index-php-mod.PNG" alt="PHP file">
 
